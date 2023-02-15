@@ -1,0 +1,21 @@
+#!/bash/bin
+
+#author
+#date
+## description script to check if the file/directory exist in system
+
+echo "Please enter the file or directory path to check"
+read P
+if [ -f $P ]
+
+then
+echo "Your path is a file"
+
+elif [ -d $P ]
+  then 
+  echo "Your path is directory"
+
+  else
+  echo "Invalid entry please try again"
+
+  fi
